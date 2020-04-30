@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <style media="all" type="text/css">
+      @import"../stylesheet/stylesheet.css";
+    </style>
+    <script type="text/javascript" src="../javascript/javascript.js">
+    </script>
+  </head>
+  <body>
+
+    <div class="header">
+      <a href="../index.html"><li>Home</li></a>
+      <a href="shop.html"><li>Shop</li></a>
+      <a href="login.html"><li>Log in</li></a>
+      <img src="../images/shoppingcart.svg" id="shopp" alt="shopping_cart" onclick="openNav2()">
+      <img src="../images/logo.png" alt="logo">
+    </div>
+
+    <div id="mobileNavbar"> <!-- NOTE: MOBILE VIEW -->
+      <div class="icon">
+        <img src="../images/burgerIcon.png" alt="burger_icon" onclick="openNav()">
+      </div>
+
+      <div class="icon" >
+        <img src="../images/logo.png" alt="page_logo">
+      </div>
+
+      <div class="icon">
+        <img src="../images/shoppingcart.svg" alt="shopping_cart" onclick="openNav2()">
+      </div>
+
+    </div>
+    <div id="Nav1"> <!-- NOTE: this is for the mobile view -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../index.html"><li>Home</li></a>
+      <a href="shop.html"><li>Shop</li></a>
+      <a href="login.html"><li>Log in</li></a>
+    </div>
+    <div id="Nav2"> <!-- NOTE: this is for the mobile view -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+      <div id="product1">
+        <hr>
+        <img src="../images/product1.jpg" alt="hoodie">
+        <div class="desc">
+          <h1>ss1 Hoodie</h1>
+          <select class="size" name="sizebox">
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+            <option value="4">XL</option>
+          </select>
+          <p>price: £30.00</p>
+          <div class="product_button">
+            <button type="button" name="button" onclick="product_click1_minus()" >-</button>
+            <input type="number" id="count1" value="0">
+            <button type="button" name="button" onclick="product_click1()">+</button>
+          </div>
+        </div>
+
+        <hr>
+      </div>
+      <div id="product2">
+        <hr>
+        <img src="../images/tshirt_back.jpg" alt="tee">
+        <div class="desc">
+          <h1>ss1 tee</h1>
+          <select class="size" name="sizebox">
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+            <option value="4">XL</option>
+          </select>
+          <p>price: £15.00</p>
+          <div class="product_button">
+            <button type="button" name="button" onclick="product_click2_minus()" >-</button>
+            <input type="number" id="count2" value="0">
+            <button type="button" name="button" onclick="product_click2()">+</button>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div id="product3">
+        <hr>
+        <img src="../images/cap_front.jpg" alt="tee">
+        <div class="desc">
+          <h1>ss1 cap</h1>
+          <select class="size" name="sizebox">
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+            <option value="4">XL</option>
+          </select>
+          <p>price: £10.00</p>
+          <div class="product_button">
+            <button type="button" name="button" onclick="product_click3_minus()">-</button>
+            <input type="number" id="count3" value="0">
+            <button type="button" name="button" onclick="product_click3()" >+</button>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="checkout">
+        <button type="button" name="button">checkout</button>
+      </div>
+    </div>
+
+    <div class="container" >
+
+
+      <!-- NOTE: for product1 -->
+      <div id="col1" onclick="openHoodie()">
+        <img src="../images/product1.jpg" alt="hoodie"  >
+        <h1>SS1 HOODIE</h1>
+        <img id="prod11"src="../images/product1_front.jpg" alt="hoodie">
+        <img id="prod12" src="../images/product1_back.jpg" alt="hoodie">
+      </div>
+      <div id="forCol1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="item">
+          <select class="size" name="sizebox">
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+            <option value="4">XL</option>
+          </select>
+          <div class="price">
+            <p>£30.00</p>
+          </div>
+          <div class="button1">
+            <button type="button" name="button" onclick="product_click1()">add to the cart</button>
+            <button type="button" name="button" onclick="message()">check out now</button>
+            <button onclick="redo()" type="button" name="button">go back</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- NOTE: for product2 -->
+      <div id="col2" onclick="openTee()">
+        <img src="../images/tshirt_back.jpg" alt="hoodie"  >
+        <h1>SS1 HOODIE</h1>
+        <img id="prod21"src="../images/product2.jpg" alt="hoodie">
+      </div>
+      <div id="forCol2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="item">
+          <select class="size" name="sizebox">
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+            <option value="4">XL</option>
+          </select>
+          <div class="price">
+            <p>£15.00</p>
+          </div>
+          <div class="button1">
+            <button type="button" name="button" onclick="product_click2()">add to the cart</button>
+            <button type="button" name="button" onclick="message()">check out now</button>
+            <button onclick="redo()" type="button" name="button">go back</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="col3" onclick="openCap()">
+        <img src="../images/cap_front.jpg" alt="caps">
+        <h1>SS1 HEADWEAR</h1>
+        <img id="prod31" src="../images/product3.jpg" alt="cap">
+      </div>
+
+    <div id="forCol3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="item">
+        <select class="size" name="sizebox">
+          <option value="1">Size fixed</option>
+        </select>
+        <div class="price">
+          <p>£10.00</p>
+        </div>
+        <div class="button1">
+          <button type="button" name="button" onclick="product_click3()">add to the cart</button>
+          <button type="button" name="button" onclick="message()">check out now</button>
+          <button onclick="redo()" type="button" name="button">go back</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div id="footer">
+      <div id="instagram">
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="../images/logoInstagram.svg" alt="instagram logo">
+        <br>
+        <h3>all rights are not reserved</h3>
+        <h4>phone: +44 78948 5849</h4>
+        <h4>email: admin@drippedhype.com</h4>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,765 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: helvetica Bold;
+  color: black;
+  list-style-type: none;
+}
+
+
+/* NOTE: first page only - instead of content and container */
+
+
+.product_button
+{
+  background-color: grey;
+}
+
+.product_button input
+{
+  padding: 2%;
+}
+
+.product_button button
+{
+  padding: 2%;
+}
+
+#product1
+{
+  position: sticky;
+  float: left;
+  display: none;
+}
+
+#product1 img
+{
+  width: 30%;
+}
+
+#product2
+{
+  position: sticky;
+  float: left;
+  display: none;
+}
+
+#product2 img
+{
+  width: 30%;
+}
+
+#product3
+{
+  position: sticky;
+  float: left;
+  display: none;
+}
+
+#product3 img
+{
+  width: 30%;
+}
+
+.desc
+{
+  background-color: purple;
+  width: 100%;
+}
+
+
+
+
+
+
+#parallax1
+{
+  background-image: url("../images/cap_front.jpg");
+  height: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+#parallax3
+{
+  background-image: url("../images/yeezys.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.header
+{
+  width: 100%;
+  background-color: rgb(78, 199, 208, 0.5);
+  position: sticky;
+  top: 0;
+  display: block;
+}
+
+
+
+
+
+
+#Nav1 {
+  display: none;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: rgba(192,192,192,0.8);
+  display: block;
+}
+
+#Nav1 a {
+  padding: 18px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  font-family: bold;
+  display: block;
+  transition: 0.3s;
+}
+
+
+#Nav1 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#Nav2 {
+  display: none;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: rgba(192,192,192,0.8);
+  display: block;
+}
+
+#Nav2 a {
+  padding: 18px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  font-family: bold;
+  display: block;
+  transition: 0.3s;
+}
+
+#Nav2 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.checkout button
+{
+  width: 50%;
+  padding:2%;
+  position: fixed;
+  bottom: 0;
+}
+
+.header li:hover
+{
+  background-color: rgb(255, 255, 255, 1);
+
+}
+
+#mobileNavbar
+{
+  display: none;
+
+}
+
+.container
+{
+  width: 100%;
+  background-color: white;
+}
+
+
+.content
+{
+  max-width: 24%;
+  display: inline-block;
+  margin-left: 7%;
+  background-color: rgb(128, 128, 128, 0.5);
+  transition: 1s;
+  font-size: 100%;
+  margin-top: 1%;
+}
+
+.product_desc
+{
+  width: 100%;
+  background-color: rgba(99, 69, 154);
+
+}
+
+.content:hover
+{
+  opacity: 0.5;
+
+}
+
+.content img
+{
+  max-width: 100%;
+}
+
+
+
+
+
+.pagination_centre
+{
+  text-align: center;
+  padding: 1%;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+#instagram
+{
+  text-align: center;
+}
+
+#instagram img
+{
+  max-width: 5%;
+}
+
+#prod11
+{
+  display: none;
+}
+
+#prod12
+{
+  display: none;
+}
+
+#prod21
+{
+  display: none;
+}
+
+#prod31
+{
+  display: none;
+}
+
+
+#col1
+{
+  max-width: 24%;
+  display: inline-block;
+  margin-left: 7%;
+  background-color: rgb(128, 128, 128, 0.5);
+  transition: 1s;
+  font-size: 100%;
+  margin-top: 1%;
+
+}
+#forCol1
+{
+  padding: 3%;
+  margin: 3%;
+  float: left;
+  width: 50%;
+  display: none;
+  background-color: #62449B;
+}
+
+#forCol2
+{
+  padding: 3%;
+  margin: 3%;
+  float: left;
+  width: 50%;
+  display: none;
+  background-color: #62449B;
+}
+#forCol3
+{
+  padding: 3%;
+  margin: 3%;
+  float: left;
+  width: 50%;
+  display: none;
+  background-color: #62449B;
+}
+
+.size
+{
+  max-width: 50%;
+  position: static;
+}
+
+.price
+{
+  float: right;
+}
+.button1
+{
+  margin: 5%;
+  max-width: 100%;
+}
+.button1 button
+{
+  padding: 5%;
+}
+
+#col1:hover
+{
+  opacity: 0.5;
+
+}
+
+#col1 img
+{
+  max-width: 100%;
+}
+#col2
+{
+  max-width: 24%;
+  display: inline-block;
+  margin-left: 7%;
+  background-color: rgb(128, 128, 128, 0.5);
+  transition: 1s;
+  font-size: 100%;
+  margin-top: 1%;
+}
+#col2:hover
+{
+  opacity: 0.5;
+
+}
+
+#col2 img
+{
+  max-width: 100%;
+}
+#col3
+{
+  max-width: 24%;
+  display: inline-block;
+  margin-left: 7%;
+  background-color: rgb(128, 128, 128, 0.5);
+  transition: 1s;
+  font-size: 100%;
+  margin-top: 1%;
+}
+#col3:hover
+{
+  opacity: 0.5;
+
+}
+
+#col3 img
+{
+  max-width: 100%;
+}
+
+
+
+.header li
+{
+  display: inline-block;
+  padding: 2% 3% 2% 3%;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.header img
+{
+  max-width: 4%;
+  float: right;
+}
+
+.main {
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    }
+
+    .sign {
+        padding-top: 40px;
+        color: #8C55AA;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    .un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 13%;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+    form.form1 {
+        padding-top: 40px;
+    }
+
+    .pass {
+            width: 76%;
+            color: rgb(38, 50, 56);
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1px;
+            background: rgba(136, 126, 126, 0.04);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            box-sizing: border-box;
+            border: 2px solid rgba(0, 0, 0, 0.02);
+            margin-bottom: 50px;
+            margin-left: 13%;
+            text-align: center;
+            margin-bottom: 27px;
+            font-family: 'Ubuntu', sans-serif;
+    }
+
+
+    .un:focus, .pass:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+    }
+
+    .submit {
+        cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #9C27B0, #E040FB);
+        border: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 13%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+
+    .forgot {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        padding-top: 15px;
+    }
+
+    a {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        text-decoration: none
+    }
+
+
+
+
+
+
+
+
+
+/* NOTE: potrait for the mobile view */
+@media (max-width: 415px) {
+
+
+  #parallax1
+  {
+    display: none;
+  }
+  #parallax3
+  {
+    display: none;
+  }
+  #footer
+  {
+    width: 100%;
+    background-color: purple;
+  }
+  #info
+  {
+    height: 362px;
+  }
+
+  .header
+  {
+      display: none;
+  }
+
+  #mobileNavbar
+  {
+    width: 100%;
+    float: left;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+
+  .main {
+    border-radius: 0px;
+    max-width: 100%;
+  }
+
+  .submit
+  {
+    padding-left: 10%;
+    padding-right: 10%px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .checkout button
+  {
+    max-width: 100%;
+
+  }
+
+  .content
+  {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  #info
+  {
+    height: 545px
+  }
+
+  .forms
+  {
+    background-color: grey;
+    margin-top: 10%;
+  }
+
+  .buttons
+  {
+    margin:10%;
+  }
+  .buttons button
+  {
+    padding: 5%;
+    border-radius: 45%;
+  }
+
+  #col1
+  {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  #forCol1
+  {
+    width: 90%;
+    display: none;
+  }
+  #forCol2
+  {
+    width: 90%;
+    display: none;
+  }
+  #forCol3
+  {
+    width: 90%;
+    display: none;
+  }
+
+
+  .button1
+  {
+    width: 100%;
+  }
+
+  #col2
+  {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  #col3
+  {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  #footer
+  {
+    max-width: 100%;
+    background-color: purple;
+  }
+
+
+
+
+
+
+
+}
+/* NOTE: landscape for mobile view */
+@media (max-width: 824px) {
+
+  .product_button button
+  {
+    padding: 2%;
+    width: 100%;
+  }
+  .product_button input
+  {
+    padding: 2%;
+    width: 100%;
+  }
+
+  #parallax1
+  {
+    display: block;
+  }
+  #parallax3
+  {
+    display: none;
+  }
+
+  #info
+  {
+    height: 362px;
+  }
+
+  .header
+  {
+      display: none;
+  }
+
+  #mobileNavbar
+  {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+
+  #mobileNavbar > div
+  {
+    flex: 1;
+  }
+
+  #mobileNavbar img
+  {
+    max-width: 30%;
+  }
+
+  #burgerIcon
+  {
+    font-size: 250%;
+  }
+  #Nav1
+  {
+      height: 100%;
+      width: 0%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+      transition: 0.3;
+      padding-top: 60px;
+      background-color: rgba(192,192,192,0.8);
+  }
+
+
+  .content
+  {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  .content h1
+  {
+    font-size: 100%;
+  }
+
+
+  #info
+  {
+    height: 545px
+  }
+
+  .forms
+  {
+    background-color: grey;
+  }
+
+  .buttons
+  {
+    margin:5%;
+  }
+  .buttons button
+  {
+    padding: 5%;
+    border-radius: 45%;
+  }
+}
